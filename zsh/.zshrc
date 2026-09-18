@@ -63,8 +63,6 @@ alias cla='claude'
 # alias k8s='kubectl'
 # alias dockerd='colima start'
 
-# envvars
-source ~/.env.local
 _fzf_dark="
   --color=bg+:#2c2525,bg:#101010,spinner:#f38d70,fg:#e6d9db
   --color=header:#fd6883,marker:#adda78,fg+:#f1e5e7,prompt:#f38d70
