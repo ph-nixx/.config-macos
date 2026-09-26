@@ -28,6 +28,7 @@ zinit snippet OMZP::rust
 source <(fzf --zsh)
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+eval $(opam env)
 # source <(kubectl completion zsh)
 # autoload -Uz _kubebuilder
 # compdef _kubebuilder kubebuilder
